@@ -1,6 +1,6 @@
 # Jose Vitug portfolio
 
-Static site (no build step), served by GitHub Pages from the `main` branch at https://portfolio.projectjehv.site (see `CNAME`).
+Static site (no build step), served by GitHub Pages from the `main` branch at https://automate.projectjehv.site (see `CNAME`).
 
 - `index.html`, `css/style.css`
 - `js/main.js`: smooth scroll, hero video scrub, story passages, section reveals
