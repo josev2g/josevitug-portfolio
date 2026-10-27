@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jose Vitug | GHL Specialist & AI Automation</title>
+  <meta name="description" content="Jose Vitug builds GoHighLevel systems, workflows, AI agents and integrations that remove manual work from businesses.">
+  <meta name="theme-color" content="#080C16">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23080C16'/%3E%3Ccircle cx='16' cy='16' r='6' fill='none' stroke='%2360BCE7' stroke-width='3'/%3E%3C/svg%3E">
+  <meta property="og:title" content="Jose Vitug | GHL Specialist & AI Automation">
+  <meta property="og:description" content="Workflows, AI agents, chatbots and integrations that take manual work off your team.">
+  <meta property="og:image" content="assets/img/hero-poster.webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preload" as="image" href="assets/img/hero-poster.webp">
+  <script type="importmap">
+    { "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+    } }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#about">Skip to content</a>
+
+  <header class="nav" id="nav">
+    <a class="wordmark" href="#top" data-scroll>Jose Vitug</a>
+    <nav aria-label="Primary">
+      <a href="#work" data-scroll>Work</a>
+      <a href="#services" data-scroll>Services</a>
+      <a href="#process" data-scroll>Process</a>
+      <a href="#contact" data-scroll>Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- HERO: pinned stage, video scrubbed by scroll -->
+    <section class="hero" id="hero" aria-label="Introduction">
+      <div class="stage">
+        <video class="hero-video" id="heroVideo" muted playsinline preload="auto" poster="assets/img/hero-poster.webp" aria-hidden="true"></video>
+        <div class="stage-shade" aria-hidden="true"></div>
+
+        <h1 class="headline" id="headline" aria-label="Automate. Jose Vitug, GHL Specialist and AI Automation">AUTOMATE</h1>
+        <img class="cutout" id="cutout" src="assets/img/hero-cutout.webp" alt="" aria-hidden="true">
+
+        <div class="hero-ui" id="heroUi">
+          <p class="eyebrow">GHL Specialist &amp; AI Automation</p>
+          <div class="cta-row">
+            <a class="btn btn-ghost" href="#work" data-scroll>View Case Studies</a>
+            <a class="btn btn-solid" href="https://calendly.com/josev2g-va/discovery-call" target="_blank" rel="noopener">Book a Call</a>
+          </div>
+          <span class="scroll-hint" aria-hidden="true">Scroll</span>
+        </div>
+
+        <div class="passages" aria-label="How I think about automation">
+          <!-- data-at / data-out are hero scroll progress (0-1), timed to where Jose stands in the orbit video -->
+          <figure class="passage side-left" data-at="0.14" data-out="0.30">
+            <img src="assets/img/obj1_nodes.webp" alt="Glass workflow node cluster" width="900" height="900" loading="lazy">
+            <figcaption>Every repetitive task is a decision waiting to be automated.</figcaption>
+          </figure>
+          <figure class="passage side-right" data-at="0.36" data-out="0.52">
+            <img src="assets/img/obj2_orb.webp" alt="Chrome AI agent orb" width="900" height="900" loading="lazy">
+            <figcaption>An AI agent should answer in seconds, and know when to hand off to a human.</figcaption>
+          </figure>
+          <figure class="passage side-right" data-at="0.62" data-out="0.76">
+            <img src="assets/img/obj3_pipeline.webp" alt="Interlocking data pipeline" width="900" height="900" loading="lazy">
+            <figcaption>Data should move on its own. No copy, no paste, no lost leads.</figcaption>
+          </figure>
+          <figure class="passage side-right" data-at="0.80" data-out="0.90">
+            <img src="assets/img/obj4_tiles.webp" alt="Stack of connected app tiles" width="900" height="900" loading="lazy">
+            <figcaption>Your tools already talk. I make sure they say the right thing.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- CORE ZONE: one shared 3D scene across About, Services, Case Studies -->
+    <div class="core-zone" id="coreZone">
+      <canvas id="coreCanvas" aria-hidden="true"></canvas>
+      <img class="core-fallback" id="coreFallback" src="assets/img/core-concept.webp" alt="" aria-hidden="true">
+
+      <section class="block content-right" id="about" data-core="left">
+        <div class="block-inner">
+          <p class="label">01 / About</p>
+          <h2>From the kitchen line to automation systems.</h2>
+          <p>I spent years as a professional chef running high-pressure kitchen lines, where every station, recipe and handoff had to work the same way every time. Today I bring that same discipline to business systems: GoHighLevel builds, workflows, AI agents and integrations that remove manual work and make sure no lead slips through.</p>
+          <dl class="stats">
+            <div><dt>2+ yrs</dt><dd>GHL &amp; AI automation</dd></div>
+            <div><dt>100+</dt><dd>Workflows built</dd></div>
+            <div><dt>20+</dt><dd>A2P approvals</dd></div>
+          </dl>
+          <p class="label small">Tool stack</p>
+          <ul class="chips">
+            <li>GoHighLevel</li><li>n8n</li><li>Make</li><li>Zapier</li><li>Claude / OpenAI / Gemini APIs</li><li>Vapi</li><li>ElevenLabs</li><li>Supabase</li><li>Airtable</li><li>HubSpot</li>
+          </ul>
+          <div class="process" id="process">
+            <p class="label small">How I work</p>
+            <ol>
+              <li><b>Audit</b> Find the hours your team loses to manual steps.</li>
+              <li><b>Map</b> Draw the flow before a single node is built.</li>
+              <li><b>Build</b> Ship the automation, tested end to end.</li>
+              <li><b>Hand off</b> Loom walkthroughs and docs your team can run with.</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <section class="block content-left" id="services" data-core="right">
+        <div class="block-inner">
+          <p class="label">02 / Services</p>
+          <h2>What I build for you.</h2>
+          <ul class="services">
+            <li><h3>Workflow automation</h3><p>Lead routing, follow-up, pipelines and reminders in GHL, n8n, Make or Zapier, built so your team stops doing it by hand.</p></li>
+            <li><h3>AI agents &amp; chatbots</h3><p>Chat and voice receptionists that answer 24/7, qualify leads and book straight into your calendar.</p></li>
+            <li><h3>CRM setup &amp; integrations</h3><p>GoHighLevel accounts, snapshots, custom fields, A2P registration and API or webhook bridges to the rest of your stack.</p></li>
+            <li><h3>RPA &amp; process audits</h3><p>A clear map of where time goes, which steps to automate first, and the bots to take them over.</p></li>
+            <li><h3>Corporate AI training</h3><p>Hands-on sessions that get your team using AI tools safely in their day-to-day work.</p></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="block content-right" id="work" data-core="left">
+        <div class="block-inner">
+          <p class="label">03 / Case Studies</p>
+          <h2>Results, not just workflows.</h2>
+          <p class="note">Numbers marked <span class="ph">placeholder</span> are examples to replace with real figures.</p>
+          <article class="case">
+            <p class="client">HVAC contractor, residential &amp; commercial</p>
+            <h3>Dispatch &amp; revenue engine</h3>
+            <p><b>Problem:</b> Missed calls, slow emergency triage and unsold quotes with no follow-up.</p>
+            <p><b>Solution:</b> Missed-call text back, urgency routing to on-call techs, a 3-step unsold quote nurture and an automatic review request.</p>
+            <p class="result"><span class="metric">&lt; 60s<span class="ph">placeholder</span></span> response to missed calls</p>
+          </article>
+          <article class="case">
+            <p class="client">Dental clinic</p>
+            <h3>24/7 AI receptionist</h3>
+            <p><b>Problem:</b> After-hours calls and chats went unanswered and patients booked elsewhere.</p>
+            <p><b>Solution:</b> A chat and voice AI receptionist that answers questions from the clinic's knowledge base and books directly into the GHL calendar.</p>
+            <p class="result"><span class="metric">15 hrs<span class="ph">placeholder</span></span> of front-desk time saved per week</p>
+          </article>
+          <article class="case">
+            <p class="client">Real estate team</p>
+            <h3>12-stage lead pipeline system</h3>
+            <p><b>Problem:</b> Agents chased leads by hand and old leads went cold.</p>
+            <p><b>Solution:</b> 12 GHL workflows covering capture, buyer and seller qualification, showings, escrow milestones and stale lead reactivation.</p>
+            <p class="result"><span class="metric">30%<span class="ph">placeholder</span></span> lower cost per closed deal</p>
+          </article>
+        </div>
+      </section>
+    </div>
+
+    <section class="final-cta" id="contact">
+      <h2>Let's Automate Your Business</h2>
+      <p>A free 30 minute audit: we find the manual work costing you the most and map how to remove it.</p>
+      <a class="btn btn-solid btn-lg" href="https://calendly.com/josev2g-va/discovery-call" target="_blank" rel="noopener">Book a Free Automation Audit</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span class="wordmark">Jose Vitug</span>
+    <nav aria-label="Contact links">
+      <a href="mailto:business@projectjehv.site">business@projectjehv.site</a>
+      <a href="https://linkedin.com/in/jehv2g" target="_blank" rel="noopener">LinkedIn</a>
+      <!-- PLACEHOLDER: replace with your Upwork profile URL -->
+      <a href="#" data-placeholder="upwork">Upwork</a>
+    </nav>
+    <small>&copy; 2026 Jose Vitug</small>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="js/main.js"></script>
+  <script type="module" src="js/core3d.js"></script>
+</body>
+</html>
